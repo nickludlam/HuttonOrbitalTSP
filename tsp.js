@@ -220,7 +220,7 @@ window.onload = function () {
     for (var i = 0; i < proposed_solution.length; i++) {
       var j = i + 1;
       if (j === proposed_solution.length) {
-        j = 0;
+        break;
       }
       var a = proposed_solution[i];
       var b = proposed_solution[j];
