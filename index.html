@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Travelling Trucker Solver</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .label {
+      color: white;
+      cursor: pointer;
+      font-size: large;
+      user-select: none;
+      text-shadow:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="dat.gui.min.js"></script>
+  <script src="three.min.js"></script>
+  <script src="CSS2DRenderer.js"></script>
+  <script src="OrbitControls.js"></script>
+  <script src="stats.min.js"></script>
+  <script src="stars.js"></script>
+  <script src="tsp.js"></script>
+
+  <div id="container">
+    <div id="labels"></div>
+  </div>
+
+</body>
+
+</html>
